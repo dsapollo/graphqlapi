@@ -1,0 +1,16 @@
+{
+    "name": "graphql-gateway",
+    "main": "gateway.js",
+    "scripts": {
+        "start": "node apollo.js"
+    },
+    "dependencies": {
+        "@apollo/gateway": "^0.50.0",
+        "@apollo/server-plugin-landing-page-graphql-playground": "^4.0.0",
+        "apollo-server": "^3.6.7",
+        "apollo-server-core": "^3.6.7",
+        "apollo-server-express": "^3.6.7",
+        "express": "^4.17.3",
+        "graphql": "^16.3.0"
+    }
+}
